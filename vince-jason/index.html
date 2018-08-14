@@ -29,24 +29,33 @@ structural CSS is in place.-->
     <!-- Clearfix allows for flexibility in switching between desktop and mobile views, and keeps the favicons and text from clumping together. -->
 
     <section class="heading-group-h1">
-      <h1>
+      <h1 class="header-h1">
         Kilovolt Blog!
       </h1>
       <h2>The shocking power of static pages</h2>
     </section>
     <nav>
       
-      <div class="icon-hamburger"></div>
-      <div class="icon-hamburger"></div>
-      <div class="icon-hamburger"></div>
-
-      <ul>
+    <div class="nav-container">
+      <div class="hamburger-container">
+        <div class="icon-hamburger"></div>
+        <div class="icon-hamburger"></div>
+        <div class="icon-hamburger"></div>
+      </div>
+    
+      <ul class="dropdown-content">
         <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
+        <hr class="navline">
         <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
+        <hr class="navline">
         <li><a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"> Twitter</a></li>
+        <hr class="navline">
         <li><a href="http://github.com/brookr" target="_blank" class="icon-github"> GitHub</a></li>
+        <hr class="navline">
       </ul>
     </nav>
+  </div>
+
   </header>
   <main>
     <section id="articles" class="tab-content">
