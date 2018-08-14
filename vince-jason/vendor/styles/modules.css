@@ -1,0 +1,39 @@
+header.clearfix {
+  background-color: #ffeaaa;
+  padding-bottom: 2%
+
+}
+
+nav ul {
+  font-family: 'icomoon',serif;
+  font-stretch: condensed;
+  list-style-type: none;
+  color: #777777; 
+  font-size: 1.2em;
+  overflow: hidden;
+  padding-left: 2%;
+}
+
+nav a { 
+  color: inherit; 
+  text-decoration: none;
+  float: left;
+  padding: 1%;
+} 
+
+.tab-content div {
+    float: top;
+    display: inline-block;
+
+  } 
+
+  div a {
+    color: inherit; 
+  text-decoration: none;
+
+  }
+
+article {
+  display: inline;
+}
+
