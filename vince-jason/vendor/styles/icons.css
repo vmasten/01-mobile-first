@@ -84,9 +84,10 @@
 
 
 .hamburger-container {
+	position: absolute;
 	width: 35px;
-	float: right;
-	margin-top: -22%;
+	top: 0%;
+	right: 1%;
 	
 }
 
