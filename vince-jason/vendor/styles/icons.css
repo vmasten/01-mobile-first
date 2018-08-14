@@ -73,7 +73,9 @@
 	display: none;
 }
 
-@media only screen and (max-width: 768px) {
+
+
+@media only screen and (max-width: 640px) {
 
 .dropdown-content {
 	display: none;
@@ -83,11 +85,14 @@
 
 .hamburger-container {
 	width: 35px;
+	float: right;
+	margin-top: -22%;
+	
 }
 
 .icon-hamburger {
 	width: 35px;
-	height: 5px;
+	height: 7px;
 	background-color: black;
 	margin: 6px 0;
 	}
