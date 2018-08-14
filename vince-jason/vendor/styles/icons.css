@@ -68,3 +68,14 @@
 .icon-github:before {
 	content: "\e907";
 }
+
+@media only screen and (max-width: 768px) {
+
+.icon-hamburger {
+	width: 35px;
+	height: 5px;
+	background-color: black;
+	margin: 6px 0;
+	}
+
+}
