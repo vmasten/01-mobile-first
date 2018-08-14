@@ -2,7 +2,7 @@ header.clearfix {
   background-color: #ffeaaa;
   padding-bottom: 2%;
   margin-top: 0%;
-  padding: 0px 20px;
+  padding: 10px 20px;
 }
 
 .header-h1 {
@@ -43,7 +43,4 @@ nav a {
 
   }
 
-article {
-  display: inline;
-}
 
